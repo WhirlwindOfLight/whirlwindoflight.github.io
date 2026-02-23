@@ -12,3 +12,13 @@
   description: A program designed to forward physical keyboard and mouse input to a machine running [VM-Controller](https://github.com/WhirlwindOfLight/VM-Controller). It was originally designed to use physical hardware to control VMs managed by [HardwareVNC](https://github.com/WhirlwindOfLight/HardwareVNC), but it can also be used to share a keyboard and mouse between two physical machines.
   github: https://github.com/WhirlwindOfLight/VM-HardwareForwarder
   language: C++
+
+- name: BangleAppsDev
+  description: A repository for my WIP apps for the BangleJS 2. It contains a variety of tweaked versions of others' apps, apps that aren't done, and apps I simply haven't submitted to the official app store.
+  github: https://github.com/WhirlwindOfLight/BangleAppsDev
+  language: Javascript
+
+- name: CYOA-Engine
+  description: A CLI Choose Your Own Adventure game originally designed to demonstrate my understanding of Python at the beginning of my Server-Side Architecture class (CS 3620) at Weber State University. The program loads a story from a YAML file and at certain points prompts the user to enter text to move to the next narrative until an ending is reached. Since the story is stored entirely in a YAML file, you can also swap out the story for your own by changing the YAML file.
+  github: https://github.com/WhirlwindOfLight/CYOA-Engine
+  language: Python
