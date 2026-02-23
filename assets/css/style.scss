@@ -47,6 +47,18 @@ body {
     }
 }
 
+.container {
+    // This centers the content and adds a 5% "gutter" on each side
+    width: 100%;
+    max-width: 900px;      // The site won't get wider than this on desktop
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;       // Adds 20px of breathing room on left and right
+    
+    // Smoothly handle box sizing
+    box-sizing: border-box; 
+}
+
 .project-grid {
     display: grid;
     // This creates exactly two columns, each taking up 50% of the space
@@ -57,6 +69,10 @@ body {
     // Mobile Responsiveness: 
     // On small screens, we should drop back to 1 column so the text isn't squashed.
     @media (max-width: 768px) {
+        .container {
+            padding: 0 15px;   // Slightly tighter padding for very small screens
+        }
+
         grid-template-columns: 1fr;
     }
 }
