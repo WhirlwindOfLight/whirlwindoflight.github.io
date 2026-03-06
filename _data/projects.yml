@@ -4,7 +4,7 @@
   language: C++
 
 - name: VM-Controller
-  description: A program designed to create virtual input devices (to control physical or virtual machines) that take TCP input and convert it into keyboard and mouse signals. It was originally designed to respond to packets sent from [HardwareVNC](https://github.com/WhirlwindOfLight/HardwareVNC), but it can also be used in combination with [VM-HardwareForwarder](https://github.com/WhirlwindOfLight/VM-HardwareForwarder) to forward physical keyboard and mouse signals from one machine to another.
+  description: A program designed to create a virtual keyboard and mouse (to control physical or virtual machines) and take TCP input to control those virtual input devices. It was originally designed to respond to packets sent from [HardwareVNC](https://github.com/WhirlwindOfLight/HardwareVNC), but it can also be used in combination with [VM-HardwareForwarder](https://github.com/WhirlwindOfLight/VM-HardwareForwarder) to forward physical keyboard and mouse signals from one machine to another.
   github: https://github.com/WhirlwindOfLight/VM-Controller
   language: Python
 
